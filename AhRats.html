@@ -39,13 +39,12 @@
 									<hr class="major" />
 
 									<h2>About the Game</h2>
-									<p>This project was a nearly ten-week-long group effort where we had to create another prototype game. The team consisted of four coders/developers and four artists from Metropolia.
-										Both sides had a to-do list detailing what needed to be done and how important each task was to the game. Both teams did an amazing job, and the outcome was exactly what we wanted.</p>									
-									<p>In this project, I decided to try something new by helping get the multiplayer functionality working with a Photon server. I also worked on the task system in the game, as it was a familiar subject from one of my previous projects.
-										In hindsight, I could have contributed more, but at times I felt unsure about what to do or how to proceed, which slowed me down in some situations. Thankfully, my team was always there to help when needed.</p>									
-									<p>After finishing the game, we considered continuing development after submission, but the idea never fully materialized. The game ended up with a few bugs that significantly impacted gameplay in certain situations.
-										Despite these issues, we were really pleased with our work. We managed to keep the scope of the game realistic enough to deliver a playable prototype, and the end result did not disappoint.
-									</p>
+<p>This project was a nearly ten-week-long group effort where we were tasked with creating another prototype game. Our team consisted of four coders/developers and four artists from Metropolia University of Applied Sciences. Both sides worked from a to-do list that outlined what needed to be done and ranked each task’s importance. Everyone did an amazing job, and the outcome was exactly what we had envisioned.</p>
+
+<p>For this project, I decided to try something new by helping implement multiplayer functionality using a Photon server. I also worked on the game’s task system, a familiar feature from one of my previous projects. In hindsight, I feel I could have contributed more—there were times I wasn’t sure how to proceed, which slowed my progress. Thankfully, my team was always there to provide guidance and support.</p>
+
+<p>After finishing the game, we considered continuing development post-submission, but the idea never fully materialized. The final version had a few bugs that significantly affected gameplay in certain situations. Despite these issues, we were proud of what we achieved. We kept the game’s scope realistic enough to deliver a playable prototype, and the end result did not disappoint.</p>
+
 										<p>The game can be found <a href="https://sandeliero.itch.io/ah-rats">here</a>, passcode: metropolia.</p>
 									
 									<hr class="major" />
@@ -90,35 +89,41 @@
 									<hr class="major" />
 
 									<h2>Details</h2>
-									<p>Here, I have listed the technical details of the game, covering aspects such as graphics and the bugs we encountered along the way.</p>
+									<p>Below are some of the technical details of the game, including graphics decisions and notable bugs we encountered along the way.</p>
+
 									<h3>Graphics 🎨</h3>
-									<p>We already had a clear graphic style in mind: Toy Story. This approach made the game more exciting and fun, softening the seriousness of eliminating rats.
-										Our artists were proactive and seemed genuinely excited to work on this theme—they did not let us down. The graphics became one of my favorite aspects of the game.</p>
+									<p>We had a clear graphic style in mind from the start: <em>Toy Story</em>. This playful approach made the game more fun and lighthearted, softening the otherwise serious theme of eliminating rats.  
+									Our artists were enthusiastic and proactive, fully embracing the theme—and they absolutely delivered. The visuals became one of my favorite aspects of the project.</p>
+
 									<h3>Mechanics ⚙️</h3>
-									<p>Our main focus was creating a multiplayer experience, something none of us had coded before, making it a worthwhile challenge.
-										In my opinion, we made a smart decision to build the server first and integrate the game's core mechanics into it.<br> 
-										We also needed to create win conditions for both sides. For the human, it was straightforward: eliminate all the rats to win. However, finding a win condition for the rats was more challenging. 
-										We decided to add tasks for both sides, with a primary focus on the rats. Completing these tasks increased a meter, which, when filled, would end the game.<br> 
-										We brainstormed many ideas to include in the game. Some of these ideas were implemented because they were either necessary or added a fun twist. One example was the addition of tunnels, which helped the rats navigate the kitchen more efficiently.</p>
+									<p>Our main goal was to create a multiplayer experience—something none of us had coded before—making it a challenging and rewarding endeavor.  
+									We made the smart choice to build the server first and then integrate the game’s core mechanics into it.  
+
+									We also needed win conditions for both sides. For the human, it was straightforward: eliminate all the rats to win. For the rats, however, it was trickier. We decided to implement tasks for both teams, with a heavier focus on the rats. Completing these tasks would fill a meter, and once it reached maximum, the game would end.  
+
+									We brainstormed many ideas, some of which were added because they were necessary or simply fun. One example was the inclusion of tunnels, which allowed rats to navigate the kitchen more efficiently.</p>
+
 									<h3>Problems ❌</h3>
-									<p>While coding and brainstorming ideas, we encountered multiple challenges related to both coding and GitHub. 
-										<br>In terms of coding, our biggest problem was getting everything to work smoothly on the server side. This caused multiple delays because certain elements didn’t function as intended.
-										For me personally, the most significant challenge was implementing an audio task that worked via the server and updated the task list properly. Additionally, we faced issues where certain objects or tasks caused the game to end prematurely.
-										<br>We also encountered a frustrating number of issues with GitHub, especially when merging branches. Merge conflicts were the primary source of errors, but as we neared the end of the project, we became more comfortable managing them.
-										Our artists were new to GitHub, so they had to be taught how to use it and guided on avoiding merge conflicts. Thankfully, by the end of the project, the number of conflicts was minimal.
-									</p>
-										<h4>List of some bugs/problems</h4>
-										<ul>
-											<li>GitHub merge conflicts</li>
-											<li>Getting this working serverside</li>
-											<li>UI sometimes not working</li>
-										</ul>
+									<p>Throughout development, we faced several challenges in both coding and GitHub collaboration.  
+									The biggest technical issue was getting all systems to work correctly on the server side. This caused delays when certain features didn’t behave as intended.  
+
+									For me personally, the most difficult task was implementing a server-synced audio event that updated the task list correctly. We also had cases where certain objects or tasks caused the game to end prematurely.  
+
+									GitHub presented its own set of headaches—especially with merge conflicts. At first, these were frequent and frustrating, but over time we got better at resolving them. Our artists were new to GitHub, so we had to teach them the basics and guide them on avoiding conflicts. By the project’s end, the number of conflicts had dropped significantly.</p>
+
+									<h4>Some of the issues we encountered:</h4>
+									<ul>
+										<li>Frequent GitHub merge conflicts</li>
+										<li>Server-side functionality not working as intended</li>
+										<li>UI inconsistencies and failures</li>
+									</ul>
+
 									<h3>Improvements 🛠️</h3>
-									<p>After completing the prototype, we considered improving the game further but ultimately decided not to pursue it. Had we continued development, we likely would have switched to a different server and reworked almost everything from the ground up.<br>
-										There were several mechanics that required significant fixes, as well as some features we chose not to implement because they were prone to breaking.</p>
+									<p>Although we considered continuing development, we ultimately decided against it. If we had pursued further work, we likely would have switched to a different server solution and rebuilt much of the game from scratch.  
+									Several mechanics needed significant fixes, and some planned features were left out entirely because they were too prone to breaking.</p>
+
 									<h3>Progress ⌛</h3>
-									<p>We had a well-balanced team in both size and personality. Everyone had a clear role and remained committed to their responsibilities until the end. Our project scope was realistic, and we managed to follow it closely without ever feeling the need to rush. 
-									</p>
+									<p>Our team was well-balanced in both size and personality. Everyone had a clearly defined role and remained committed to their responsibilities until the very end. We scoped the project realistically, stuck to the plan, and never reached a point where we felt rushed.</p>
 								</section>
 
 						</div>
